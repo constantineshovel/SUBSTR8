@@ -6,7 +6,7 @@ SUBSTR8 is a modular platform designed to build standardized software for spatia
 
 It is based on a system of six core modules that provide the fundamental functions required for geospatial processing. Rather than being a standalone application, SUBSTR8 acts as a flexible foundation: users can assemble, extend, and integrate the modules to create their own tools, workflows, or executable software.
 
-## Philosophy
+## 🍸 Philosophy
 
 SUBSTR8 separates **core functionality** from **final implementation**.
 
@@ -19,7 +19,7 @@ This allows complete freedom in:
 - connecting sensors or data streams  
 - adapting workflows to specific use cases  
 
-## Features
+## 🧨 Features
 
 - Modular architecture (6 independent core modules)  
 - Designed for spatial analysis and geospatial workflows  
@@ -27,7 +27,7 @@ This allows complete freedom in:
 - Scalable and adaptable to different environments  
 - Supports custom pipelines and user-defined applications
 
-## Modules
+## 🎱 Modules
 
 - launcher.py
 - GUI.py
@@ -36,18 +36,18 @@ This allows complete freedom in:
 - plotter.py
 - about.py
 
-## Use cases
+## 🔥 Use cases
 
 - Environmental and geospatial analysis  
 - Integration of satellite and remote sensing data  
 - Custom GIS tools and workflows  
 - Research-oriented software development  
 
-## Status
+## 🪩 Status
 
 🚧 Active development
 
-## Dependencies & Licenses
+## ✨ Dependencies & Licenses
 
 SUBSTR8 depends on the following open source libraries:
 
