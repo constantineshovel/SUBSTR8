@@ -46,3 +46,22 @@ This allows complete freedom in:
 ## Status
 
 🚧 Active development
+
+## Dependencies & Licenses
+
+SUBSTR8 depends on the following open source libraries:
+
+- NumPy (BSD License)
+- Dask (BSD License)
+- Dask-image (BSD License)
+- Rasterio (BSD License)
+- GeoPandas (BSD License)
+- psutil (BSD License)
+- SciPy (BSD License)
+- Matplotlib (PSF License)
+- Pillow (PIL Software License)
+- Requests (Apache 2.0)
+- Tkinter (Python License)
+- customtkinter (MIT License)
+
+All copyright and license notices for these libraries are retained.
