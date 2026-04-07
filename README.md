@@ -23,7 +23,16 @@ This allows complete freedom in:
 - Designed for spatial analysis and geospatial workflows  
 - Compatible with external tools and software  
 - Scalable and adaptable to different environments  
-- Supports custom pipelines and user-defined applications  
+- Supports custom pipelines and user-defined applications
+
+## Modules
+
+- launcher.py
+- GUI.py
+- file_manager.py
+- dictionaries.py
+- plotter.py
+- about.py
 
 ## Use cases
 
