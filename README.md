@@ -1,4 +1,7 @@
-# SUBSTR8
+<p align="center">
+  <img src="Assíle_logo.png" width="400">
+</p>
+
 
 Pala, C. (2026). SUBSTR8 - An open platform for building GIS applications (1.0 Assíle). Zenodo. https://doi.org/10.5281/zenodo.19462380
 
