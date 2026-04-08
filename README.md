@@ -5,29 +5,33 @@
 
 Pala, C. (2026). SUBSTR8 - An open platform for building GIS applications (1.0 Assíle). Zenodo. https://doi.org/10.5281/zenodo.19462380
 
-SUBSTR8 is a modular platform designed to build standardized software for spatial analysis.
+SUBSTR8
+SUBSTR8 is a modular platform designed for building standardized spatial analysis software.
 
-It is based on a system of six core modules that provide the fundamental functions required for geospatial processing. Rather than being a standalone application, SUBSTR8 acts as a flexible foundation: users can assemble, extend, and integrate the modules to create their own tools, workflows, or executable software.
+It is built on six core modules providing fundamental geospatial functions. Rather than a standalone application, SUBSTR8 is a flexible foundation: you can assemble, extend, and integrate these modules to create custom tools, workflows, or standalone executables.
 
 ## 🍸 Philosophy
+SUBSTR8 separates core functionality from final implementation. This architecture offers complete freedom to build custom applications, integrate external software, and adapt workflows to specific use cases.
 
-SUBSTR8 separates **core functionality** from **final implementation**.
-
-- The modules provide the building blocks  
-- The user defines how to use them
-
-This allows complete freedom in:
-- building custom applications  
-- integrating external software    
-- adapting workflows to specific use cases  
+The modules provide the building blocks. The user defines how to use them.
 
 ## 🧨 Features
+Modular Architecture: Six independent core modules for total flexibility.
 
-- Modular architecture (6 independent core modules)  
-- Designed for spatial analysis and geospatial workflows  
-- Compatible with external tools and software  
-- Scalable and adaptable to different environments  
-- Supports custom pipelines and user-defined applications
+-Big Data Optimization: Uses dynamic chunking and multithreading to handle massive rasters without crashing.
+-Hardware Agnostic: Specifically engineered to run heavy geospatial workloads on low-end hardware.
+-Highly Compatible: Seamlessly integrates with external tools and software.
+-Scalable Pipelines: Supports user-defined applications and custom processing pipelines.
+
+## ⚡ Performance
+
+SUBSTR8 is optimized for efficiency, allowing high-speed processing even on older machines.
+
+Benchmark Example:
+Hardware: 2018 Lenovo Ideapad 330 15AST (AMD A9, 8 GB RAM)
+Performance: 0.0085 ms/pixel
+
+This efficiency ensures that high-end geospatial processing isn't gated behind expensive hardware.
 
 ## 🎱 Modules
 
