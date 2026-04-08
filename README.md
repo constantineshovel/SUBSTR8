@@ -14,12 +14,11 @@ It is based on a system of six core modules that provide the fundamental functio
 SUBSTR8 separates **core functionality** from **final implementation**.
 
 - The modules provide the building blocks  
-- The user defines how to use them  
+- The user defines how to use them
 
 This allows complete freedom in:
 - building custom applications  
-- integrating external software  
-- connecting sensors or data streams  
+- integrating external software    
 - adapting workflows to specific use cases  
 
 ## 🧨 Features
@@ -32,19 +31,20 @@ This allows complete freedom in:
 
 ## 🎱 Modules
 
-- launcher.py
-- GUI.py
-- file_manager.py
-- dictionaries.py
-- plotter.py
-- about.py
+- launcher: detectes the OS and launches the GUI
+- GUI: Guided User Interface based on customtkinter. 
+- file_manager: modules handling 100% of raster operations
+- assetios.py: module handling I/O dictionaries and system parameters
+- mapadore.py: useful to plot simple maps
+- about.py: info about bibliography, license, guide and developer
 
 ## 🔥 Use cases
 
 - Environmental and geospatial analysis  
 - Integration of satellite and remote sensing data  
 - Custom GIS tools and workflows  
-- Research-oriented software development  
+- Research-oriented software development
+- maybe others I don't actually know?
 
 ## 🪩 Status
 
@@ -67,4 +67,4 @@ SUBSTR8 depends on the following open source libraries:
 - Tkinter (Python License)
 - customtkinter (MIT License)
 
-All copyright and license notices for these libraries are retained.
+All copyright and license notices for these libraries are retained. (my apologies if I did some mistake or forgot somebody.. in such case please let me know!)
