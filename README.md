@@ -5,8 +5,7 @@
 
 Pala, C. (2026). SUBSTR8 - An open platform for building GIS applications (1.0 Assíle). Zenodo. https://doi.org/10.5281/zenodo.19462380
 
-SUBSTR8
-SUBSTR8 is a modular platform designed for building standardized spatial analysis software.
+SUBSTR8  is a modular platform designed for building standardized spatial analysis software.
 
 It is built on six core modules providing fundamental geospatial functions. Rather than a standalone application, SUBSTR8 is a flexible foundation: you can assemble, extend, and integrate these modules to create custom tools, workflows, or standalone executables.
 
