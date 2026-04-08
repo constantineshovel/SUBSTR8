@@ -3,7 +3,7 @@
 </p>
 
 
-Pala, C. (2026). SUBSTR8 - An open platform for building GIS applications (1.0 Assíle). Zenodo. https://doi.org/10.5281/zenodo.19462380
+_Pala, C. (2026). SUBSTR8 - An open platform for building GIS applications (1.0 Assíle). Zenodo. https://doi.org/10.5281/zenodo.19462380_
 
 SUBSTR8  is a modular platform designed for building standardized spatial analysis software.
 
@@ -71,3 +71,5 @@ SUBSTR8 depends on the following open source libraries:
 - customtkinter (MIT License)
 
 All copyright and license notices for these libraries are retained. (my apologies if I did some mistake or forgot somebody.. in such case please let me know!)
+
+Assíle: https://en.wikipedia.org/wiki/European_pine_marten
