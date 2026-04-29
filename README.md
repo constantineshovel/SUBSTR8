@@ -50,8 +50,11 @@ This efficiency ensures that high-end geospatial processing isn't gated behind e
 - maybe others I don't actually know?
 
 ## 🪩 Status
+📦 Here some things to expect from the 1.1 version:
++ CLI - Command Line Interface
++ improved chunking
 
-🚧 Active development
+if you have any idea for the 2.0 version please text me: costantino.pala.geo@proton.me
 
 ## ✨ Dependencies & Licenses
 
