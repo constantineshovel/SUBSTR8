@@ -54,7 +54,7 @@ This efficiency ensures that high-end geospatial processing isn't gated behind e
 
 ## 🪩 Status
 📦 Here some things to expect from the 1.1 version:
-+ improved chunking, shapefile buffers
++ improved chunking, vector buffers
 
 if you have any idea for the 2.0 version please text me: costantino.pala.geo@proton.me
 
