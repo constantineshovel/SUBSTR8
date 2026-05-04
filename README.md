@@ -54,8 +54,7 @@ This efficiency ensures that high-end geospatial processing isn't gated behind e
 
 ## 🪩 Status
 📦 Here some things to expect from the 1.1 version:
-+ CLI - Command Line Interface
-+ improved chunking
++ improved chunking, shapefile buffers
 
 if you have any idea for the 2.0 version please text me: costantino.pala.geo@proton.me
 
@@ -66,12 +65,14 @@ SUBSTR8 depends on the following open source libraries:
 - NumPy (BSD License)
 - Dask (BSD License)
 - Dask-image (BSD License)
+- Dask_geopandas (BSD 3-Clause)
 - Rasterio (BSD License)
 - GeoPandas (BSD License)
 - psutil (BSD License)
 - SciPy (BSD License)
 - Matplotlib (PSF License)
 - Pillow (PIL Software License)
+- Pyogrio (MIT)
 - Requests (Apache 2.0)
 - Tkinter (Python License)
 - customtkinter (MIT License)
