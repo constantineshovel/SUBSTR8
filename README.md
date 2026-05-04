@@ -18,8 +18,11 @@ The modules provide the building blocks. The user defines how to use them.
 Modular Architecture: Six independent core modules for total flexibility.
 
 -Big Data Optimization: Uses dynamic chunking and multithreading to handle massive rasters without crashing.
+
 -Hardware Agnostic: Specifically engineered to run heavy geospatial workloads on low-end hardware.
+
 -Highly Compatible: Seamlessly integrates with external tools and software.
+
 -Scalable Pipelines: Supports user-defined applications and custom processing pipelines.
 
 ## ⚡ Performance
