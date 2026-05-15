@@ -15,7 +15,7 @@ import platform
 os.environ.pop('PROJ_LIB', None)
 os.environ.pop('PROJ_DATA', None)
 
-import GUI #The INUE Guided User Interface
+import GUI
 from assetios import parameters
 
 def set_platform():
