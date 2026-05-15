@@ -9,8 +9,13 @@
 # Written by me, with coding support and suggestions from ChatGPT and Gemini
 
 
+import os
 import platform
-import GUI 
+
+os.environ.pop('PROJ_LIB', None)
+os.environ.pop('PROJ_DATA', None)
+
+import GUI #The INUE Guided User Interface
 from assetios import parameters
 
 def set_platform():
