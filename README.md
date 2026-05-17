@@ -52,7 +52,7 @@ This efficiency ensures that high-end geospatial processing isn't gated behind e
 - Research-oriented software development
 - maybe others I don't actually know?
 
-## ⛽ Software based on SUBSTR8 
+## ⛽ Software developed with SUBSTR8 
 
 > INUE: https://www.github.com/constantineshovel/inue
 
