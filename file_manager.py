@@ -732,8 +732,8 @@ def resource_path(relative_path):
 
 def file_manager():
     ctk.set_appearance_mode("light")
-    window = ctk.CTk()
-    window.title("SUBSTR8 - Preliminary Operations")
+    window = ctk.CTkToplevel()
+    window.title("SUBSTR8 v1.1 - Preliminary Operations")
     window.geometry("500x600")
     # Define colors
     panel_color = "#ECEFF1"
@@ -741,9 +741,11 @@ def file_manager():
     
     sistema = parameters["os_system"]
     if sistema == 2:
-        window.iconbitmap(resource_path("SUBSTRAT8_logo.ico"))
+        window.iconbitmap(resource_path("SUBSTR8_logo.ico"))
     elif sistema == 1:
-        window.iconbitmap(resource_path("SUBSTR8_logo.png"))     
+        import tkinter as tk
+        icon_img = tk.PhotoImage(file=resource_path("SUBSTR8_logo.png"))
+        window.iconphoto(True, icon_img)
 
     # Set the window background color
     window.configure(bg=panel_color)

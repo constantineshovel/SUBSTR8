@@ -33,15 +33,16 @@ def resource_path(relative_path): #function useful to automatically load the fol
 def GUI():
     ctk.set_appearance_mode("light")#you could opt for the dark version by tipying 'dark' instead of 'light'
     root = ctk.CTk()
-    root.title("SUBSTR8 v1.0 Assíle")#write the name of your software
+    root.title("SUBSTR8 v1.1 Assíle")#write the name of your software
 
     sistema = parameters["os_system"]
+
     if sistema == 2:
-        try: root.iconbitmap(resource_path("SUBSTR8_logo.ico")) #put the name of the ico file for your icon. it is useful on windows
-        except: pass
+        root.iconbitmap(resource_path("SUBSTR8_logo.ico"))
     elif sistema == 1:
-        try: root.iconbitmap(resource_path("SUBSTR8_logo.png"))   #put the name of the png file for your icon. it is useful on linux    
-        except: pass
+        from PIL import ImageTk
+        icon_img = ImageTk.PhotoImage(Image.open(resource_path("SUBSTR8_logo.png")))
+    root.iconphoto(True, icon_img)
 
     dwith = root.winfo_screenwidth()
     dheig = root.winfo_screenheight()
